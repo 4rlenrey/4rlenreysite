@@ -24,8 +24,8 @@
   top: 50%;
   left: 50%;
   margin-top: 150px;
-  margin-left: -488px;
-  width: 976px;
+  margin-left: -478px;
+  width: 968px;
   height: 110px;
   display: flex;
   flex-direction: row;
@@ -42,6 +42,7 @@
   color: rgb(15, 79, 32);
   padding: 15px 32px;
   text-align: center;
+  font-weight: bold;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;

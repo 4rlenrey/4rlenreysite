@@ -1,5 +1,6 @@
 import React from 'react';
-import Panel from './nav-panel'
+import Panel from './nav-panel';
+
 
 function App() {
   return (
