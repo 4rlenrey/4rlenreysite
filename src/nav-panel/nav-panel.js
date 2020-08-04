@@ -6,13 +6,14 @@ import "./nav-panel.css";
 
 import Games from "../games";
 import About from "../about";
-import Contact from "../contact";
+import Experiments from "../experiments";
 
 const choices = {
   1: "About",
   2: "Games",
-  3: "Contact",
+  3: "Experiments",
 };
+
 class Panel extends Component {
   render() {
     return (
@@ -26,12 +27,12 @@ class Panel extends Component {
             <Link to="/games">
               <Button className="button">{choices[2]}</Button>
             </Link>
-            <Link to="/contact">
+            <Link to="/experiments">
               <Button className="button">{choices[3]}</Button>
             </Link>
           </div>
           <Switch>
-            <Route path="/contact" component={Contact} />
+            <Route path="/experiments" component={Experiments} />
             <Route path="/games" component={Games} />
             <Route path="/about" component={About} />
           </Switch>

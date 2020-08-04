@@ -1,16 +1,16 @@
 import React from "react";
-import "./games.css";
+import "./experiments.css";
 import "../back/backb.css";
 
 import Back from "../back";
 
-const Games = () => (
+const Experiments = () => (
   <div className="panel">
-    {"TEST GAMES"}
+    {"Test"}
     <div className="backb">
       <Back />
     </div>
   </div>
 );
 
-export default Games;
+export default Experiments;

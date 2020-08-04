@@ -20,16 +20,3 @@
   justify-content: space-around;
   align-items: center;
 }
-.test{
-  position: fixed;
-  top: 90%;
-  left: 0%;
-  background-color: rgb(15, 79, 32);
-  border-radius: 15%;
-  width: 90px;
-  height: 90px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
