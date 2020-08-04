@@ -3,7 +3,7 @@ import './games.css';
 
 const Games = () => (
   <div className="panel">
-  ASDASDJ
+  {"TEST GAMES"}
   </div>
 );
 
