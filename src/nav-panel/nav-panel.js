@@ -19,7 +19,9 @@ class Panel extends Component {
     return (
       <div className="panel">
         <BrowserRouter>
-          <img className="profileP" alt="proff" src={profileP} />
+          <a href="https://github.com/4rlenrey">
+            <img className="profileP" alt="proff" src={profileP} />
+          </a>
           <div className="navigators">
             <Link to="/about">
               <Button className="button">{choices[1]}</Button>
