@@ -24,14 +24,28 @@
   height: 50%;
 }
 
-.socialmedia{
+.navigator{
   height: 220px;
   position: fixed;
   top: 5%;
   left: 5%;
 }
 
-.socialmedia img:hover{
-  animation: rotate 2s;
-  animation-iteration-count: 1;
+.TextInfo{
+  overflow-wrap: break-word;
+  width: 80%;
+}
+
+.SelectorInfo {
+  width: 250px;
+  height: 100px;
+  background-color: black;
+  border-radius: 15%;
+  border: 0px;
+  color: rgb(15, 79, 32);
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
 }
