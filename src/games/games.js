@@ -6,7 +6,9 @@ import Back from "../back";
 
 const Games = () => (
   <div className="panel">
+    <div className="box game">
     {"TEST GAMES"}
+    </div>
     <div className="backb">
       <Back />
     </div>
